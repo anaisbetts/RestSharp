@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using RestSharp.Authenticators.OAuth.Extensions;
-#if !WINDOWS_PHONE && !SILVERLIGHT
+#if !WINDOWS_PHONE
 using RestSharp.Contrib;
 #endif
 
